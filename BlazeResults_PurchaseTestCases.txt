@@ -1,0 +1,46 @@
+
+In-App Purchase Test Cases — Blaze Results
+===========================================
+
+Use a sandbox Apple ID (Settings → App Store → Sandbox Account) to test.
+No real charge will occur.
+
+
+──────────────────────────────────────────
+PURCHASE 1 — Heat Alerts
+Product ID: com.blaze.results.alerts
+──────────────────────────────────────────
+
+  1. Launch the app. Tap the bell icon in the top-left corner of the Dashboard.
+     Confirm the locked state is shown with an "Unlock" button and the correct price.
+
+  2. Tap "Unlock". In the PaywallView, tap the price button on the Heat Alerts card.
+     Authenticate with the sandbox Apple ID when prompted.
+
+  3. Confirm the card shows a green checkmark and reads "Purchased". Dismiss the PaywallView.
+     Confirm the Heat Alerts sheet now shows the threshold slider (25–45 °C) and a live zone list.
+
+  4. Move the slider and confirm the zone list updates in real time.
+
+  5. Delete and reinstall the app. Go to Settings → "Restore Purchases".
+     Confirm the Heat Alerts sheet opens in the unlocked state after restore.
+
+
+──────────────────────────────────────────
+PURCHASE 2 — Blaze Pro
+Product ID: com.blaze.results.pro
+──────────────────────────────────────────
+
+  1. Launch the app. Go to Settings (gear icon, top-right of Dashboard).
+     Tap the Blaze Pro row and confirm the PaywallView opens with the correct price.
+
+  2. Tap the price button on the Blaze Pro card.
+     Authenticate with the sandbox Apple ID when prompted.
+
+  3. Confirm the card shows a green checkmark and reads "Purchased". Dismiss the PaywallView.
+     Confirm Settings shows an "Active" badge next to Blaze Pro.
+
+  4. Navigate to the AI Chat tab. Confirm the chat is fully accessible with no upgrade prompt.
+
+  5. Delete and reinstall the app. Go to Settings → "Restore Purchases".
+     Confirm the "Active" badge returns and the AI Chat tab remains fully accessible.

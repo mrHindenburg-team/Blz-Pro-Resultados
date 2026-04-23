@@ -1,3 +1,3 @@
 enum AppPhase {
-    case splash, onboarding, main
+    case onboarding, main
 }
